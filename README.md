@@ -18,9 +18,9 @@ In the last section, you learned how to perform a basic linear regression with a
 
 Up to this point you've only seen continuous predictor variables. Here, you'll get a further look at how to identify and then transform categorical variables to utilize them as predictors of our target variable.
 
-## Multicolinearity of Features
+## Multicollinearity of Features
 
-While multiplie predictors will ultimately increase model performance and yield better predictions, there are also possible negative effects when using multiple predictors that have a high correlation with each other. This is known as multicolinearity and can muddy model interpretation.
+While multiple predictors will ultimately increase model performance and yield better predictions, there are also possible negative effects when using multiple predictors that have a high correlation with each other. This is known as multicollinearity and can muddy model interpretation.
 
 ## Feature Scaling and Normalization
 
@@ -28,11 +28,11 @@ Another consideration when using multiple predictors in any model is the scale o
 
 ## Multiple Linear Regression in Statsmodels
 
-After covering a lot of the key theories, you'll then get some hands on practice in performing multiple linear regressions using Statsmodels and sci-kit learn.
+After covering a lot of the key theories, you'll then get some hands-on practice in performing multiple linear regressions using Statsmodels and sci-kit learn.
 
 ## Model Fit and Validation
 
-You'll continue the section by looking at how we can analyse the results of a regression, and learn the importance of splitting data into training and testing sets to determine how well a model predicts "unknown" values (the testing data set). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
+You'll continue the section by looking at how we can analyze the results of a regression, and learn the importance of splitting data into training and testing sets to determine how well a model predicts "unknown" values (the testing data set). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
 
 
 
