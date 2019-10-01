@@ -14,6 +14,11 @@ You will be able to:
 
 In the last section, you learned how to perform a basic linear regression with a single predictor variable. Here, you'll explore how to perform linear regressions using **multiple** independent variables to better predict a target variable.
 
+## Improving a Baseline Model
+
+Over the next few lessons, you'll see some ways to improve basic regression models using different combinations of features as well as some feature engineering.  Often, a simple linear regression can be used as a "baseline model" upon which new features can be added to improve the predictions.  Any decisions on how to change features should be compared against a simpler model to see if the changes have improved the model or not. This section will give an introduction to many of the techniques which can improve a regression model.
+
+
 ## Dealing with Categorical Variables
 
 Up to this point you've only seen continuous predictor variables. Here, you'll get a further look at how to identify and then transform categorical variables to utilize them as predictors of our target variable.
@@ -28,12 +33,11 @@ Another consideration when using multiple predictors in any model is the scale o
 
 ## Multiple Linear Regression in Statsmodels
 
-After covering a lot of the key theories, you'll then get some hands-on practice in performing multiple linear regressions using Statsmodels and sci-kit learn.
+After covering a lot of the key theory, you'll then get some hands-on practice in performing multiple linear regressions using the Statsmodels and Scikit-learn libraries.
 
 ## Model Fit and Validation
 
-You'll continue the section by looking at how we can analyze the results of a regression, and learn the importance of splitting data into training and testing sets to determine how well a model predicts "unknown" values (the testing data set). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
-
+You'll continue the section by looking at how we can analyze the results of a regression, and learn the importance of splitting data into training and test sets to determine how well a model predicts "unknown" values (the test dataset). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
 
 
 
