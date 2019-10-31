@@ -5,11 +5,6 @@
 
 In this section, you'll start to see more advanced regression models which employ multiple predictors. With that, you'll also start to investigate how to validate your models to ensure they are neither overfit nor underfit, and will generalize well to future cases.
 
-## Objectives
-You will be able to:
-* Understand and explain what is covered in this section
-* Understand and explain why the section will help you to become a data scientist
-
 ## Multiple Linear Regression
 
 In the last section, you learned how to perform a basic linear regression with a single predictor variable. Here, you'll explore how to perform linear regressions using **multiple** independent variables to better predict a target variable.
@@ -17,7 +12,6 @@ In the last section, you learned how to perform a basic linear regression with a
 ## Improving a Baseline Model
 
 Over the next few lessons, you'll see some ways to improve basic regression models using different combinations of features as well as some feature engineering.  Often, a simple linear regression can be used as a "baseline model" upon which new features can be added to improve the predictions.  Any decisions on how to change features should be compared against a simpler model to see if the changes have improved the model or not. This section will give an introduction to many of the techniques which can improve a regression model.
-
 
 ## Dealing with Categorical Variables
 
@@ -29,17 +23,15 @@ While multiple predictors will ultimately increase model performance and yield b
 
 ## Feature Scaling and Normalization
 
-Another consideration when using multiple predictors in any model is the scale of those features. For example, a dataset surrounding households might have a number of children feature and an income feature. These two variables are of vastly different scales and as such, simply having a feature like income which is on a much larger scale can impact its influence over the model. To avoid this, it is best practice to normalize the scale of all features before feeding the data to a machine learning algorithm.
+Another consideration when using multiple predictors in any model is the scale of those features. For example, a dataset surrounding households might have a "number of children" feature and an "income" feature. These two variables are of vastly different scales and as such, simply having a feature like income which is on a much larger scale can impact its influence over the model. To avoid this, it is best practice to normalize the scale of all features before feeding the data to a machine learning algorithm.
 
 ## Multiple Linear Regression in Statsmodels
 
-After covering a lot of the key theory, you'll then get some hands-on practice in performing multiple linear regressions using the Statsmodels and Scikit-learn libraries.
+After covering a lot of the key theory, you'll then get some hands-on practice in performing multiple linear regressions using the Statsmodels and Scikit-Learn libraries.
 
 ## Model Fit and Validation
 
 You'll continue the section by looking at how we can analyze the results of a regression, and learn the importance of splitting data into training and test sets to determine how well a model predicts "unknown" values (the test dataset). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
-
-
 
 ## Summary
 
