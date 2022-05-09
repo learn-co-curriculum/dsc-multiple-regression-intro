@@ -1,37 +1,26 @@
-
-# Multiple Regression and Model Validation - Introduction
+# Multiple Linear Regression - Introduction
 
 ## Introduction
 
-In this section, you'll start to see more advanced regression models which employ multiple predictors. With that, you'll also start to investigate how to validate your models to ensure they are neither overfit nor underfit, and will generalize well to future cases.
+In this section, you'll start to see more advanced regression models which employ multiple predictors.
 
 ## Multiple Linear Regression
 
-In the last section, you learned how to perform a basic linear regression with a single predictor variable. Here, you'll explore how to perform linear regressions using **multiple** independent variables to better predict a target variable.
+In the last section, you learned how to perform a basic linear regression with a single predictor variable. Here, you'll explore how to perform linear regressions using **multiple** independent variables to better predict a target variable. After learning the conceptual basics, you'll learn how to build these models using StatsModels.
 
-## Improving a Baseline Model
+## Multiple Regression Model Evaluation and Interpretation
 
-Over the next few lessons, you'll see some ways to improve basic regression models using different combinations of features as well as some feature engineering.  Often, a simple linear regression can be used as a "baseline model" upon which new features can be added to improve the predictions.  Any decisions on how to change features should be compared against a simpler model to see if the changes have improved the model or not. This section will give an introduction to many of the techniques which can improve a regression model.
+As models become more complex, so does the process of evaluating the model performance overall, as well as the process of interpreting the model coefficients. We'll walk through the concepts as well as how to use statistical libraries to perform this evaluation and interpretation.
 
-## Dealing with Categorical Variables
+## Iteration in the Modeling Process
+
+### Improving a Baseline Model
+
+Often, a simple linear regression can be used as a "baseline model" upon which new features can be added to improve the predictions.  Any decisions on how to change features should be compared against a simpler model to see if the changes have improved the model or not. This section will give an introduction to many of the techniques which can improve a regression model.
+
+### Dealing with Categorical Variables
 
 Up to this point you've only seen continuous predictor variables. Here, you'll get a further look at how to identify and then transform categorical variables to utilize them as predictors of our target variable.
-
-## Multicollinearity of Features
-
-While multiple predictors will ultimately increase model performance and yield better predictions, there are also possible negative effects when using multiple predictors that have a high correlation with each other. This is known as multicollinearity and can muddy model interpretation.
-
-## Feature Scaling and Normalization
-
-Another consideration when using multiple predictors in any model is the scale of those features. For example, a dataset surrounding households might have a "number of children" feature and an "income" feature. These two variables are of vastly different scales and as such, simply having a feature like income which is on a much larger scale can impact its influence over the model. To avoid this, it is best practice to normalize the scale of all features before feeding the data to a machine learning algorithm.
-
-## Multiple Linear Regression in Statsmodels
-
-After covering a lot of the key theory, you'll then get some hands-on practice in performing multiple linear regressions using the Statsmodels and Scikit-Learn libraries.
-
-## Model Fit and Validation
-
-You'll continue the section by looking at how we can analyze the results of a regression, and learn the importance of splitting data into training and test sets to determine how well a model predicts "unknown" values (the test dataset). Finally, you'll wrap up the section by looking at how k-fold cross-validation can be used to get additional model validations on a limited data set by taking multiple splits of training and testing data.
 
 ## Summary
 
